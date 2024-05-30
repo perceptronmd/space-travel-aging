@@ -32,7 +32,7 @@ As you can see here, when
 
 These are the proteins involved, with contribution score computed from SHAP analysis of top 20 proteins used in the aging clock (deep neural network model).
 
-![image](https://github.com/perceptronmd/space-travel-aging/assets/72681336/707f3b2e-d519-4847-8ece-6a3e9dcea6e2)
+![image](https://github.com/perceptronmd/space-travel-aging/assets/72681336/542a5a37-70fa-445d-8f20-643bad6c2883)
 
 
 SHAP plot of all proteins used in the model:
