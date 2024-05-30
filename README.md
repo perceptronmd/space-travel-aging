@@ -23,24 +23,36 @@ Conclusions: space travel is associated with differential expression of genes th
 
 ## Figures
 
-As you can see here, when 
-![image](https://github.com/perceptronmd/space-travel-aging/assets/72681336/1c245d7f-8158-48aa-aa26-1a76c486cce9)
-
+When assessing proteins contributing to younger age, there is strong evidence of underenrichment in adipose tissue (post-spaceflight) and overenrichment in liver tissue. ($score = (1-OR) / Pval$; vertical axis shows the score on log scale, $dir * log10((1-OR) / Pval)$, $dir=+1$ if OR>1, $dir=-1$ otherwise.
 
 ![image](https://github.com/perceptronmd/space-travel-aging/assets/72681336/d1222b7f-aac4-4ebf-abd9-9bc9c405f11f)
 
 
+![image](https://github.com/perceptronmd/space-travel-aging/assets/72681336/1c245d7f-8158-48aa-aa26-1a76c486cce9)
+
+
+
 These are the proteins involved, with contribution score computed from SHAP analysis of top 20 proteins used in the aging clock (deep neural network model).
+Contributes to older age
 
-![image](https://github.com/perceptronmd/space-travel-aging/assets/72681336/542a5a37-70fa-445d-8f20-643bad6c2883)
+| Contributes to Older Age | Contributes to Younger Age |
+|---------------------------|----------------------------|
+| LTBP2                     | PAEP                       |
+| EDA2R                     | BCAN                       |
+| SCARF2                    | ADAMTS15                   |
+| NEFL                      | CDON                       |
+| GFAP                      | FASLG                      |
+| CCDC80                    | ROBO1                      |
+| EFEMP1                    |                            |
+| HAVCR1                    |                            |
+| CXCL17                    |                            |
+| CDHR2                     |                            |
+| WNT9A                     |                            |
+| CDCP1                     |                            |
+| CRTAC1                    |                            |
+| CCN5                      |                            |
 
 
-SHAP plot of all proteins used in the model:
-![image](https://github.com/perceptronmd/space-travel-aging/assets/72681336/d790bd4b-d3fe-400b-9fe9-200361bd1d43)
-![image](https://github.com/perceptronmd/space-travel-aging/assets/72681336/700dec55-9fbc-4d56-b8fb-05891e9834b6)
-![image](https://github.com/perceptronmd/space-travel-aging/assets/72681336/a7bf86b1-4b63-49f4-a812-15b21f872930)
-![image](https://github.com/perceptronmd/space-travel-aging/assets/72681336/185e171e-56ad-471c-a8d0-4ae9822995ae)
-
-
+![image](https://github.com/perceptronmd/space-travel-aging/assets/72681336/5cf872b0-b03e-4612-b4a5-9fe96cf41f83)
 
 
