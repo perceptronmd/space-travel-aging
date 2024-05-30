@@ -23,7 +23,7 @@ Conclusions: space travel is associated with differential expression of genes th
 
 ## Figures
 
-When assessing proteins contributing to younger age, there is strong evidence of underenrichment in adipose tissue (post-spaceflight) and overenrichment in liver tissue. ($score = (1-OR) / Pval$; vertical axis shows the score on log scale, $dir * log10((1-OR) / Pval)$, $dir=+1$ if OR>1, $dir=-1$ otherwise.
+When assessing proteins contributing to younger age, there is strong evidence of underenrichment in adipose tissue (post-spaceflight) and overenrichment in liver tissue. ($score = (1-OR) / Pval$); vertical axis shows the score on log scale, $dir * log10((1-OR) / Pval)$, $dir=+1$ if OR>1, $dir=-1$ otherwise.
 
 ![image](https://github.com/perceptronmd/space-travel-aging/assets/72681336/d1222b7f-aac4-4ebf-abd9-9bc9c405f11f)
 
