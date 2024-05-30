@@ -17,7 +17,7 @@ Problem formulation:
 
 How we do the analysis:
 1. Aging clock on UK biobank data proteomics dataset of 52K healthy individuals
-2. Take the top 20 proteins contributory to biological aging (either positively or negatively) and see which ones overlap with differential gene expression in space travel in human (Inspiration, NASA Twins) and mouse studies
+2. Take the top 20 proteins contributory to biological aging (either positively or negatively) and see which ones overlap with differential gene expression in space travel in human (Inspiration, NASA Twins) and mouse studies. Evaluate the enrichment scores aggregated across proteins, stratified by tissue.
 
 Conclusions: space travel is associated with differential expression of genes that are implicated in biological aging. There are putative signals for accelerated aging of adipose tissue as well as decelerated aging in liver tissues. 
 
@@ -27,7 +27,7 @@ When assessing proteins contributing to younger age, there is strong evidence of
 
 ![image](https://github.com/perceptronmd/space-travel-aging/assets/72681336/d1222b7f-aac4-4ebf-abd9-9bc9c405f11f)
 
-
+The underenrichment of anti-aging genes in adipose tissue is complemented by overenrichment of pro-aging genes in adipose tissue. Similarly, the overenrichment of anti-aging genes in liver tissue is complemented by underenrichment of pro-aging genes in the liver. To a lesser extent, there are similar antagonistic trends in bone, heart, muscle.
 ![image](https://github.com/perceptronmd/space-travel-aging/assets/72681336/1c245d7f-8158-48aa-aa26-1a76c486cce9)
 
 
